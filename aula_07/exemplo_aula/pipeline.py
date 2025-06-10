@@ -1,6 +1,8 @@
+# %%
+
 from etl import ler_csv, filtrar_produtos, somar_valores_produtos
 
-path_arquivo = "vendas.csv"
+path_arquivo = "aula_07/exemplo_aula/vendas.csv"
 
 lista_de_produtos = ler_csv(path_arquivo)
 produtos_filtrados = filtrar_produtos(lista_de_produtos)
